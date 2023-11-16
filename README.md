@@ -5,17 +5,17 @@
 
 - #### External Holiday API
 
-    > **Get** /api/v2/AvailableCountries
+    > **Get** /api/v3/AvailableCountries
   
-    > **Get** /api/v2/CountryInfo/{countryCode}
+    > **Get** /api/v3/CountryInfo/{countryCode}
 
-    > **GET** /api/v2/LongWeekend/{year}/{countryCode}
+    > **GET** /api/v3/LongWeekend/{year}/{countryCode}
   
-    > **Get** /api/v2/PublicHolidays/{year}/{countryCode}
+    > **Get** /api/v3/PublicHolidays/{year}/{countryCode}
 
-    > **Get** /api/v2/NextPublicHolidays/{countryCode}
+    > **Get** /api/v3/NextPublicHolidays/{countryCode}
 
-    > **Get** /api/v2/NextPublicHolidaysWorldwide
+    > **Get** /api/v3/NextPublicHolidaysWorldwide
   
     GET part of response body for available countries
     ```
