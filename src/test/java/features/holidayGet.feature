@@ -1,7 +1,7 @@
 Feature: Get Japan's holidays in 2023.
 
   Background:
-    * def testVersion = "v3"
+    * def testVersion = 0
     * def countryCode = "jp"
     * def year = "2023"
 
